@@ -1,0 +1,26 @@
+body {
+	background-color: whitesmoke;
+	font-family: sans-serif;
+}
+
+pre {
+	color:green;
+}
+
+.flashy {
+	color: red;
+}
+
+.moreforce {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.bordered {
+	border: 6px dotted rebeccapurple;
+	border-radius: 20px;
+}
+
+.accent {
+	color: lightseagreen;
+}
