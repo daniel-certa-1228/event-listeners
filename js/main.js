@@ -104,8 +104,24 @@ quotesArray.forEach( (quote, index) => {
 			event.currentTarget.classList.add("accent");
 		})
 
-})
+});
 
+let jediPlayer = [22,24,980,200];
+let stormPlayer = [11, 14, 900, 100];
+
+function changeScores(item, index, whichArray) {
+	whichArray[index] = item * 10;
+}
+
+document.getElementById("changeJedi").addEventListener("click", () => {
+	jediPlayer.forEach(changeScores)
+	console.log( "jedi", jediPlayer );
+});
+
+document.getElementById("changeStorm").addEventListener("click", () => {
+	stormPlayer.forEach(changeScores);
+	console.log( "storm trooper", stormPlayer );
+});
 
 
 
